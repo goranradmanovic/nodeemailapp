@@ -13,7 +13,7 @@ let allMessages = null,
 let formatAllData = (allData) => {
 
   for (let i = 0; i < allData.length; i++) {
-    console.log(allData[i])
+  
     if (allData[i].items.length > 0 && allData[i].items.length > 1) {
 
         /*console.log('first date ', formatedDate(allData[i].items[0].date))

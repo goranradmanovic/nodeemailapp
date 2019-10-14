@@ -14,7 +14,7 @@ let sendEmails = (messages) => {
 
     let mailOptions = {
       from: 'noreplycardstat@gmail.com',
-      to: 'samuel@mosalingua.com, cedric@mosalingua.com, luca@mosalingua.com, goranradmanovic@gmail.com', //, samuel@mosalingua.com, cedric@mosalingua.com, luca@mosalingua.com
+      to: 'samuel@mosalingua.com, cedric@mosalingua.com, luca@mosalingua.com, goranradmanovic@gmail.com', // samuel@mosalingua.com, cedric@mosalingua.com, luca@mosalingua.com
       subject: 'MosaContent Export differences since 24h',
       //text: 'Card statistic is attached in a file.',
       html: '<h1>MosaContent Export differences since 24h</h1><pre>' + messages + '</pre>',
